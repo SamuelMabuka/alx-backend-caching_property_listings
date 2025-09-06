@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+back_venv/
+
+# Django
+*.log
+*.pot
+*.pyc
+*.mo
+db.sqlite3
+
+# Env files
+.env
+
+# Docker
+*.env
+*.log
+docker-compose.override.yml
