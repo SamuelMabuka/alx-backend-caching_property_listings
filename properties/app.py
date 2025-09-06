@@ -1,4 +1,5 @@
 from django.apps import AppConfig
+import properties.signals
 
 class PropertiesConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
@@ -6,4 +7,3 @@ class PropertiesConfig(AppConfig):
 
     def ready(self):
         # Import signals to connect them
-        import properties.signals
